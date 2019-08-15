@@ -272,12 +272,8 @@
                     <button class="btn btn-info check-out" type="submit">Checkout</button>
                 </div>
                 <div>
-                    {{ googlemap('identifier', **params)}}
-                    </div>
-                    
-                    <div>
-                    {{googlemap("map_name", lat=-0.12, lng=-0.45, markers=[(lat, lng), (lat, lng)]}} 
-                    </div>
+                    {{googlemap("my_awesome_map", lat=0.23234234, lng=-0.234234234, markers=[(0.12, -0.45345), ...])}}
+                </div>
             </div>
 
         </div>

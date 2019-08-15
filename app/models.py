@@ -32,7 +32,11 @@ class User(db.Model, UserMixin):
     def __str__(self):
         return self.email
 
-# class User(db.Model, UserMixin):
+
+
+
+
+# class User(db.Model, UserMixin):######
 
 #     id = db.Column(db.Integer, primary_key=True)
 #     first_name = db.Column(db.String(255))
@@ -92,4 +96,3 @@ class User(db.Model, UserMixin):
 #     def index(self):
 #         return self.render('admin/custom_index.html')
 
- 

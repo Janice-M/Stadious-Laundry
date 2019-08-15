@@ -6,7 +6,7 @@ class Config:
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS= True
-
+    GOOGLEMAPS_KEY="8JZ7i18MjFuM35dJHq70n3Hx4"
 
 #  email configurations
     MAIL_SERVER = 'smtp.googlemail.com'

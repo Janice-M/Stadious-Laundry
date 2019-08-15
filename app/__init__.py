@@ -5,8 +5,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from flask_uploads import UploadSet,configure_uploads,IMAGES
 from flask_mail import Mail
-from flask import Flask
-from flask.ext.googlemaps import GoogleMaps
+from flask_googlemaps import GoogleMaps
+
 
 #flask extensions
 login_manager = LoginManager()
